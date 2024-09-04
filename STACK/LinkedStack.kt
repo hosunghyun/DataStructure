@@ -29,7 +29,7 @@ class Stack {
 
     fun pop(): Int {
         val data: Int
-        val newStack = top
+        val newStack = top 
         if (isEmpty) {
             println("Stack is Empty")
             return 0
